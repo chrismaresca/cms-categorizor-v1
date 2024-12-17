@@ -1,0 +1,32 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+.env
+
+# FastAPI specific
+*.sqlite3
+*.db
+
+# Serverless specific
+.serverless/
+*.zip
+*.log
+
+# Node specific
+node_modules/
+package-lock.json
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+
+# Miscellaneous
+*.DS_Store
+*.egg-info/
+dist/
+build/
